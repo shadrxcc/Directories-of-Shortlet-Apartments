@@ -26,7 +26,7 @@ Feel free to check the [issues page](https://github.com/Ademola101/Bootstrap-Mil
 Give a ⭐️ if you like this project!
 
 ## Acknowledgements
-* Matthew Njuguna & Sam Achola (Design from Behance)
+* Matthew Njuguna & Sam Achola (Design from [Behance](https://www.behance.net/gallery/25563385/PatashuleKE))
 
 ## :page_with_curl: License
-This project is MIT licensed.
+This project is [MIT](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) licensed.
