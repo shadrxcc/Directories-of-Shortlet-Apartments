@@ -38,9 +38,9 @@
     </header>
 
     <section class="click-away d-flex flex-column font-roboto">
-        <h4 class="text-center easysearch text-white fs-2 pb-3 fw-bold">EASYSEARCH... APARTMENTS ARE JUST A CLICK AWAY.</h4>
+        <h4 class="text-center easysearch text-white fs-5 pb-3 fw-bold">EASYSEARCH... APARTMENTS <br> ARE JUST A CLICK AWAY.</h4>
     
-    <div class="bg-white p-2">  
+    <div class="bg-white p-2 mx-3">  
         <p class="fw-bold ps-1">SEARCH BY KEYWORD</p>
      <form action="input" class="d-flex flex-column">
          <input type="search" name="search" id="search" class="mx-1 border-1 border-secondary py-2 mb-2">
@@ -57,25 +57,25 @@
 
 <section>
     <div class="grid-container d-grid text-center">
-        <h5 class="fw-bold font-roboto mt-5 text-danger">EASYSEARCH WORKS IN FOUR SIMPLE STEPS.</h5>
+        <h5 class="fw-bold font-roboto p-2 mt-5 text-danger">EASYSEARCH WORKS IN FOUR SIMPLE STEPS.</h5>
      <div class="font-roboto p-3 my-5">
-       <i class="bi fw-bolder text-dark fs-1 bi-search"></i>
-       <h5 class="fw-bolder fs-2">1. SEARCH:</h5>
+       <i class="bi fw-bolder text-dark bi-search zoom"></i>
+       <h5 class="fw-bolder fs-2 py-3">1. SEARCH:</h5>
        <p class="fs-5">Search for Shortlet Apartments around the world. It's simple, on EasySearch enter the name of a restaurant you are looking for and click on search. Alternatively, click on the search link on the top menu to view the list of all restaurants</p>
      </div>
      <div class="font-roboto p-3 my-5">
-        <i class="fas fs-1 fa-map-marked"></i>
-         <h5 class="fw-bolder fs-2">2. LOCATE:</h5>
+        <i class="fas fa-map-marked zoom"></i>
+         <h5 class="fw-bolder fs-2 py-3">2. LOCATE:</h5>
          <p class="fs-5">Get to see where the apartment is located by clicking on the apartment's profile. It's even more exciting. You can get the directions from anywhere in the country.</p>
      </div>
      <div class="font-roboto p-3 my-5">
-        <i class="fas fs-1 fa-book-open"></i>
-        <h5 class="fw-bolder fs-2">3. RESERVATIONS:</h5>
+        <i class="fas fa-book-open zoom"></i>
+        <h5 class="fw-bolder fs-2 py-3">3. RESERVATIONS:</h5>
         <p class="fs-5">Make a reservation for the apartment of your choice. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus amet numquam tempora. Consequatur incidunt laboriosam , nemo quam commodi tempora!</p>
      </div>
      <div class="font-roboto p-3 my-5">
-        <i class="bi bi-telephone-fill fs-1"></i>
-        <h5 class="fw-bolder fs-2">4. CONTACT HOST:</h5>
+        <i class="bi bi-telephone-fill zoom"></i>
+        <h5 class="fw-bolder fs-2 py-3">4. CONTACT HOST:</h5>
         <p class="fs-5">Contact Host to confirm your booking and to protect your payment. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus amet numquam tempora. Consequatur incidunt laboriosam , nemo quam commodi tempora!</p>
      </div>
     </div>
@@ -146,8 +146,10 @@
             <div class="row text-white gx-1 text-center">
                 <div class="col-md mt-4">
                     <h5>SUBSCRIBE</h5>
-                <input type="email" class="px-5 py-1" name="email" id="email" placeholder="you@example.com">
-                <input type="button" class="send py-1 position-relative" value="Send">
+                    <form action="subscribe">
+                        <input type="email" class="py-1" name="email" id="email" placeholder="you@example.com">
+                        <input type="button" class="send py-1 position-relative" value="Send">
+                    </form>
                 </div>
                 <div class="col-md mt-4">
                     <h5>CONTACT</h5>
