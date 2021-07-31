@@ -29,6 +29,10 @@ body {
   height: 200px;
 }
 
+.socials {
+    display: none;
+}
+
 /*.grid-container {
     grid-template-columns: auto auto;
 }*/
