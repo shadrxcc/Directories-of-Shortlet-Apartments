@@ -1,7 +1,7 @@
 # A Directory of Shortlet Apartments For Rent
 > HTML & CSS Capstone Project
 ## Built With 
-* HTML
+* HTML 
 * CSS 
 * Bootstrap
 
