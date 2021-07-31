@@ -20,6 +20,15 @@ body {
   margin-left: 130px;
 }
 
+.flexbox-1 {
+  background-color: #e17f65;
+}
+
+.roundedcircle {
+  width: 200px;
+  height: 200px;
+}
+
 /*.grid-container {
     grid-template-columns: auto auto;
 }*/
