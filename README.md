@@ -1,10 +1,12 @@
 # A Directory of Shortlet Apartments For Rent
 > HTML & CSS Capstone Project
 ## Built With 
-HTML <br> CSS <br> Bootstrap
+* HTML
+* CSS 
+* Bootstrap
 
 ## Live Demo
-
+https://shadrxcc.github.io/Directories-of-Shortlet-Apartments/
 
 
 ## Author
