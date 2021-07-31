@@ -1,0 +1,25 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.click-away {
+  background-image: url(/images/aaron-huber-oMOx_wV6mLQ-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  height: 100vh;
+}
+
+.easysearch {
+  margin-top: 150px;
+}
+
+.Works {
+  margin-left: 130px;
+}
+
+/*.grid-container {
+    grid-template-columns: auto auto;
+}*/
