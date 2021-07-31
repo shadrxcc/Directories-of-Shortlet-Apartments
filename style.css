@@ -13,12 +13,9 @@ body {
 }
 
 .easysearch {
-  margin-top: 150px;
+  margin-top: 250px;
 }
 
-.Works {
-  margin-left: 130px;
-}
 
 .flexbox-1 {
   background-color: #e17f65;
@@ -29,8 +26,26 @@ body {
   height: 200px;
 }
 
-.socials {
-    display: none;
+.social,
+.invisible-house-door {
+  display: none;
+}
+
+footer {
+  background-color: black;
+}
+
+.send {
+  right: 5px;
+}
+
+a.socials {
+  color: #99a5a6;
+}
+
+.socio-copy {
+  background-color: #313131;
+  color:  #99a5a6;
 }
 
 /*.grid-container {
