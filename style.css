@@ -9,11 +9,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 100%;
-  height: 100vh;
+  height: 600px;
+}
+
+header {
+  flex-direction: column;
 }
 
 .easysearch {
-  margin-top: 220px;
+  top: 180px;
 }
 
 .zoom {
@@ -21,16 +25,25 @@ body {
 }
 
 
-.flexbox-1 {
+.oxblood {
   background-color: #e17f65;
 }
 
+.flexbox {
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
 .roundedcircle {
-  width: 200px;
+  width: 230px;
   height: 200px;
 }
 
-.social,
+.circle {
+  width: 250px;
+  height: 200px;
+}
+
 .invisible-house-door {
   display: none;
 }
@@ -52,6 +65,131 @@ a.socials {
   color:  #99a5a6;
 }
 
-/*.grid-container {
-    grid-template-columns: auto auto;
-}*/
+.searchb {
+  flex-direction: column;
+}
+
+.searchw {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.topnav {
+  display: none;
+}  
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .invisible-house-door {
+      display: inline;
+    }
+
+    .flexbox {
+      flex-direction: column;
+    }
+
+    .searchb {
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .input {
+      width: 100%;
+    }
+
+    .go {
+      width: 20%;
+    }
+    
+    .searchw {
+      width: 70%;
+      margin-left: 105px;
+    }
+
+    .easysearch {
+      top: 200px;
+    }
+
+    .navbr {
+      flex-direction: row;
+    }
+
+    header {
+        flex-direction: row;
+    }
+
+    .logo {
+      right: 50px;
+      bottom: 4px;
+    }
+
+    .click-away {
+      height: 600px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .searchb {
+        flex-direction: row;
+        width: 100%;
+      }
+
+      .input {
+        width: 100%;
+      }
+  
+      .go {
+        width: 20%;
+      }
+
+      .searchw {
+        width: 70%;
+        margin-left: 180px;
+      }
+  
+      .easysearch {
+        top: 200px;
+      }
+  
+      .navbr {
+        flex-direction: row;
+      }
+  
+      header {
+          flex-direction: row;
+      }
+  
+      .logo {
+        right: 40px;
+        bottom: 3px;
+      }
+
+      .loo {
+        left: 40px;
+      }
+
+      .flexbox {
+        flex-direction: row;
+      }
+
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+
+    .topnav {
+      display: block;
+    }
+
+    .invisible-house-door {
+      display: inline;
+    }
+
+    .flexbox {
+      flex-direction: row;
+      text-align: left;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
