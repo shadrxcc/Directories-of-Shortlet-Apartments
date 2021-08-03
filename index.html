@@ -58,8 +58,8 @@
 <div class="bg-white searchw p-2 pt-3 rounded">  
     <p class="fw-bold ps-1">SEARCH BY KEYWORD</p>
  <form action="input" class="d-flex searchb">
-     <input type="search" name="search" id="search" class="mx-1 input border rounded-0 border-secondary py-2 mb-2">
-     <input type="button" value="SEARCH" class="bg-danger go text-white py-2 fs-6 rounded border-0 mx-1">
+     <input type="text" name="text" id="text" class="mx-1 input rounded border-light mb-2">
+     <input type="button" value="SEARCH" class="bg-danger go text-white fs-6 rounded border-0 mx-1">
  </form>
 </div>
 
@@ -71,26 +71,26 @@
 </section>
 
 
-<section>
+<section class="p-5 p-lg-5">
      <h5 class="fw-bold font-roboto p-2 text-center mt-5 text-danger">EASYSEARCH WORKS IN FOUR SIMPLE STEPS.</h5>
     <div class="grid-container d-grid text-center">
      <div class="font-roboto p-3 my-5">
-       <i class="bi fw-bolder text-dark bi-search zoom"></i>
+       <i class="bi bi-search fs-1"></i>
        <h5 class="fw-bolder fs-2 py-3">1. SEARCH:</h5>
        <p class="fs-5">Search for Shortlet Apartments around the world. It's simple, on EasySearch enter the name of a restaurant you are looking for and click on search. Alternatively, click on the search link on the top menu to view the list of all restaurants</p>
      </div>
      <div class="font-roboto p-3 my-5">
-        <i class="fas fa-map-marked zoom"></i>
+        <i class="fas fa-map-marked fs-1"></i>
          <h5 class="fw-bolder fs-2 py-3">2. LOCATE:</h5>
          <p class="fs-5">Get to see where the apartment is located by clicking on the apartment's profile. It's even more exciting. You can get the directions from anywhere in the country.</p>
      </div>
      <div class="font-roboto p-3 my-5">
-        <i class="fas fa-book-open zoom"></i>
+        <i class="fas fa-book-open fs-1"></i>
         <h5 class="fw-bolder fs-2 py-3">3. RESERVATIONS:</h5>
         <p class="fs-5">Make a reservation for the apartment of your choice. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus amet numquam tempora. Consequatur incidunt laboriosam , nemo quam commodi tempora!</p>
      </div>
-     <div class="font-roboto p-3 my-5">
-        <i class="bi bi-telephone-fill zoom"></i>
+     <div class="font-roboto p-3 my-4">
+        <i class="bi bi-telephone-fill fs-1"></i>
         <h5 class="fw-bolder fs-2 py-3">4. CONTACT HOST:</h5>
         <p class="fs-5">Contact Host to confirm your booking and to protect your payment. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus amet numquam tempora. Consequatur incidunt laboriosam , nemo quam commodi tempora!</p>
      </div>
@@ -98,41 +98,51 @@
 </section>
 
 <section>
-    <div class="flexbox oxblood d-flex">
-        <div class="box-1 p-4">
+    <div class="container-fluid text-center  text-md-start text-lg-start">
+       <div class="row oxblood">
+           <div class="col-md p-4">
             <h5 class="text-white fs-1"> Over 10,000 Apartments registered in our directory</h5>
             <p class="text-white fs-5"> Find a restaurant by using our filtered search engine.</p>
             <form action="how it works">
                 <input type="button" value="Find an apartment" class="p-2 text-secondary bg-white rounded border-0 mb-2">
             </form>
-        </div>
-        <div class="box-2 p-4">
-            <img class="circle rounded-circle img-fluid" src="images/map-1.jpg" alt="">
-        </div>
-    </div>
+           </div>
 
-    <div class="flexbox d-flex bg-secondary">
-    <div class="box-3 p-4">
-        <h5 class="text-white fs-1"> Find the most famous restaurant around you</h5> 
-        <p class="text-white fs-5">Just press or click on the search button and you are all set. </p>
-        <form action="how it works">
-            <input type="button" value="Find an apartment near you" class="p-2 text-secondary bg-white rounded border mb-2">
-        </form>
-    </div>
-    <div class="box-4 position-relative p-4">
-        <img class="roundedcircle rounded-circle img-fluid" src="images/map-1.jpg" alt="">
-    </div>
-</div>
+           <div class="col-md p-4">
+            <img class="roundedcircle rounded-circle float-md-end float-lg-end img-fluid" src="images/map-1.jpg" alt="">
+           </div>
+       </div>
 
-<div class="flexbox d-flex bg-info">
-    <div class="box-5 p-4">
-        <h5 class="text-white fs-1"> Anytime Anywhere!!</h5> 
-        <p class="text-white fs-5">Designed for convenient use on all platforms including our mobile ready web app and our mobile app coming soon to your app store</p></div>
-    <div class="box-6 p-4">
-        <img class="roundedcircle rounded-top img-fluid" src="images/mob-app-sc.jpg" alt="">
+       <div class="row bg-secondary">
+           <div class="col-md p-4">
+            <h5 class="text-white fs-1"> Find the most famous restaurant around you</h5> 
+            <p class="text-white fs-5">Just press or click on the search button and you are all set. </p>
+            <form action="how it works">
+                <input type="button" value="Find an apartment near you" class="p-2 text-secondary bg-white rounded border mb-2">
+            </form>
+           </div>
+
+           <div class="col-md p-4">
+            <img class="roundedcircle rounded-circle float-md-end  float-lg-end img-fluid" src="images/map-1.jpg" alt="">
+           </div>
+
+       </div>
+
+       <div class="row bg-info">
+            <div class="col-md p-4">
+                <h5 class="text-white fs-1"> Anytime Anywhere!!</h5> 
+                <p class="text-white fs-5">Designed for convenient use on all platforms including our mobile ready web app and our mobile app coming soon to your app store</p>
+            </div>
+
+            <div class="col-md p-4">
+                <img class="roundedcircle float-lg-end float-md-end img-fluid" src="images/127.0.0.1_5500_index.html(iPhone 6_7_8) (1).png" alt="">
+            </div>
+       </div>
+
+
     </div>
-</div>
 </section>
+
 
 <footer>
     <div class="container-fluid">
@@ -155,8 +165,8 @@
                 <div class="col-md mt-4">
                     <h5>SUBSCRIBE</h5>
                     <form action="subscribe">
-                        <input type="email" class="py-1" name="email" id="email" placeholder="you@example.com">
-                        <input type="button" class="send py-1 position-relative" value="Send">
+                        <input type="email" class="" name="email" id="email" placeholder="you@example.com">
+                        <input type="button" value="Send" class=" send border-0 position-relative text-secondary bg-white rounded-end">
                     </form>
                 </div>
                 <div class="col-md mt-4">

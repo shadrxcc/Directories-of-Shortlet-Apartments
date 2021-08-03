@@ -20,27 +20,13 @@ header {
   top: 180px;
 }
 
-.zoom {
-  font-size: 100px;
-}
-
-
 .oxblood {
   background-color: #e17f65;
 }
 
-.flexbox {
-  flex-direction: column-reverse;
-  text-align: center;
-}
 
 .roundedcircle {
   width: 230px;
-  height: 200px;
-}
-
-.circle {
-  width: 250px;
   height: 200px;
 }
 
@@ -81,10 +67,6 @@ a.socials {
 @media (min-width: 768px) and (max-width: 1023px) {
     .invisible-house-door {
       display: inline;
-    }
-
-    .flexbox {
-      flex-direction: column;
     }
 
     .searchb {
@@ -167,10 +149,6 @@ a.socials {
         left: 40px;
       }
 
-      .flexbox {
-        flex-direction: row;
-      }
-
     .grid-container {
         grid-template-columns: auto auto;
     }
@@ -182,14 +160,4 @@ a.socials {
     .invisible-house-door {
       display: inline;
     }
-
-    .flexbox {
-      flex-direction: row;
-      text-align: left;
-    }
-
-}
-
-@media only screen and (min-width: 1200px) {
-
 }
