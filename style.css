@@ -114,6 +114,10 @@ a.socials {
     .gridx {
       grid-template-columns: auto auto;
     }
+
+    .gridz {
+      grid-template-columns: auto auto;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -174,5 +178,9 @@ a.socials {
 
       .gridx {
         grid-template-columns: auto auto auto;
-      } 
+      }
+
+      .gridz {
+        grid-template-columns: auto auto;
+      }
 }
