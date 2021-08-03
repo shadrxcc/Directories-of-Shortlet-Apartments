@@ -24,7 +24,6 @@ header {
   background-color: #e17f65;
 }
 
-
 .roundedcircle {
   width: 230px;
   height: 200px;
@@ -173,7 +172,7 @@ a.socials {
         grid-template-columns: auto auto auto auto auto auto auto;
       } 
 
-    .gridx {
-      grid-template-columns: auto auto auto;
-    } 
+      .gridx {
+        grid-template-columns: auto auto auto;
+      } 
 }
