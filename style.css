@@ -157,21 +157,21 @@ a.socials {
         left: 40px;
       }
 
-    .grid-container {
+      .grid-container {
         grid-template-columns: auto auto;
-    }
+      }
 
-    .topnav {
-      display: block;
-    }
+      .topnav {
+        display: block;
+      }
 
-    .invisible-house-door {
-      display: inline;
-    }
+      .invisible-house-door {
+        display: inline;
+      }
 
-    .grid {
-      grid-template-columns: auto auto auto auto auto auto auto;
-    } 
+      .grid {
+        grid-template-columns: auto auto auto auto auto auto auto;
+      } 
 
     .gridx {
       grid-template-columns: auto auto auto;
