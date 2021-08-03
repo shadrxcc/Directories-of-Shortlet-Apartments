@@ -107,6 +107,14 @@ a.socials {
     .click-away {
       height: 600px;
     }
+
+    .grid {
+      grid-template-columns: auto auto auto auto;
+    }
+
+    .gridx {
+      grid-template-columns: auto auto;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -160,4 +168,12 @@ a.socials {
     .invisible-house-door {
       display: inline;
     }
+
+    .grid {
+      grid-template-columns: auto auto auto auto auto auto auto;
+    } 
+
+    .gridx {
+      grid-template-columns: auto auto auto;
+    } 
 }
