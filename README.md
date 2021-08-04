@@ -6,7 +6,7 @@
 * Bootstrap
 
 ## Live Demo
-[Live Demo Link] (https://shadrxcc.github.io/Directories-of-Shortlet-Apartments/)
+[Live Demo Link](https://shadrxcc.github.io/Directories-of-Shortlet-Apartments/)
 
 
 ## Author
