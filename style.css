@@ -63,16 +63,16 @@ a.socials {
   display: none;
 }
 
+.boom {
+  width: 18rem;
+}
+
 .boom:hover {
   transform: scale(1.1);
 }
 
 .zoom:hover {
   transform: scale(1.1) perspective(1px);
-}
-
-.boom {
-  width: 18rem;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -92,7 +92,7 @@ a.socials {
   .go {
     width: 20%;
   }
-    
+
   .searchw {
     width: 70%;
     margin-left: 105px;
@@ -145,7 +145,7 @@ a.socials {
   .input {
     width: 100%;
   }
-  
+
   .go {
     width: 20%;
   }
@@ -154,19 +154,19 @@ a.socials {
     width: 70%;
     margin-left: 180px;
   }
-  
+
   .easysearch {
     top: 200px;
   }
-  
+
   .navbr {
     flex-direction: row;
   }
-  
+
   header {
     flex-direction: row;
   }
-  
+
   .logo {
     right: 40px;
     bottom: 3px;
@@ -190,7 +190,7 @@ a.socials {
 
   .grid {
     grid-template-columns: auto auto auto auto auto auto auto;
-  } 
+  }
 
   .gridx {
     grid-template-columns: auto auto auto;
