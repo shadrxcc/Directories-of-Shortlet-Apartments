@@ -55,8 +55,8 @@ a.socials {
 }
 
 .searchw {
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .topnav {
@@ -103,7 +103,7 @@ a.socials {
     }
 
     header {
-        flex-direction: row;
+      flex-direction: row;
     }
 
     .logo {
@@ -134,69 +134,69 @@ a.socials {
 
 @media only screen and (min-width: 1024px) {
     .searchb {
-        flex-direction: row;
-        width: 100%;
-      }
+      flex-direction: row;
+      width: 100%;
+    }
 
-      .input {
-        width: 100%;
-      }
+    .input {
+      width: 100%;
+    }
   
-      .go {
-        width: 20%;
-      }
+    .go {
+      width: 20%;
+    }
 
-      .searchw {
-        width: 70%;
-        margin-left: 180px;
-      }
+    .searchw {
+      width: 70%;
+      margin-left: 180px;
+    }
   
-      .easysearch {
-        top: 200px;
-      }
+    .easysearch {
+      top: 200px;
+    }
   
-      .navbr {
-        flex-direction: row;
-      }
+    .navbr {
+      flex-direction: row;
+    }
   
-      header {
-          flex-direction: row;
-      }
+    header {
+      flex-direction: row;
+    }
   
-      .logo {
-        right: 40px;
-        bottom: 3px;
-      }
+    .logo {
+      right: 40px;
+      bottom: 3px;
+    }
 
-      .loo {
-        left: 40px;
-      }
+    .loo {
+      left: 40px;
+    }
 
-      .grid-container {
-        grid-template-columns: auto auto;
-      }
+    .grid-container {
+      grid-template-columns: auto auto;
+    }
 
-      .topnav {
-        display: block;
-      }
+    .topnav {
+      display: block;
+    }
 
-      .invisible-house-door {
-        display: inline;
-      }
+    .invisible-house-door {
+      display: inline;
+    }
 
-      .grid {
-        grid-template-columns: auto auto auto auto auto auto auto;
-      } 
+    .grid {
+      grid-template-columns: auto auto auto auto auto auto auto;
+    } 
 
-      .gridx {
-        grid-template-columns: auto auto auto;
-      }
+    .gridx {
+      grid-template-columns: auto auto auto;
+    }
 
-      .gridz {
-        grid-template-columns: auto auto;
-      }
+    .gridz {
+      grid-template-columns: auto auto;
+    }
 
-      .socio-copy {
-        justify-content: space-between;
-      }
+    .socio-copy {
+      justify-content: space-between;
+    }
 }
