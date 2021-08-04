@@ -61,7 +61,15 @@ a.socials {
 
 .topnav {
   display: none;
-}  
+}
+
+.boom:hover {
+  transform: scale(1.1);
+}
+
+.zoom:hover {
+  transform: scale(1.1) perspective(1px);
+}
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .invisible-house-door {
