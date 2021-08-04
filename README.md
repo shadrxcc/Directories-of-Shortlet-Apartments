@@ -1,5 +1,5 @@
-# A Directory of Shortlet Apartments For Rent
-> HTML & CSS Capstone Project
+# Vader Apartments: A Directory of Shortlet Apartments For Rent
+> HTML & CSS Capstone Project (A Directory of Shortlet Apartments): A personalized online directory of apartments built based on the project specifications from Mathew Njuguna and others' Online Directory of Schools.
 ## Built With 
 * HTML 
 * CSS 
@@ -29,6 +29,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgements
 * Matthew Njuguna & Sam Achola (Design from [Behance](https://www.behance.net/gallery/25563385/PatashuleKE))
+
+* Images from unsplash and pinterest.
+
+* Airbnb
 
 ## :page_with_curl: License
 This project is [MIT](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) licensed.
