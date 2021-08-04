@@ -118,6 +118,10 @@ a.socials {
     .gridz {
       grid-template-columns: auto auto;
     }
+
+    .socio-copy {
+      justify-content: space-between;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -182,5 +186,9 @@ a.socials {
 
       .gridz {
         grid-template-columns: auto auto;
+      }
+
+      .socio-copy {
+        justify-content: space-between;
       }
 }
