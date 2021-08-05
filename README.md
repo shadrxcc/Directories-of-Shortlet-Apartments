@@ -30,9 +30,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgements
 * Matthew Njuguna & Sam Achola (Design from [Behance](https://www.behance.net/gallery/25563385/PatashuleKE))
 
-* Images from unsplash and pinterest.
-
-* Airbnb
+* Images from unsplash and [Airbnb](https://www.airbnb.com/s/Lagos--Nigeria/homes?place_id=ChIJwYCC5iqLOxARy9nDZ6OHntw&refinement_paths%5B%5D=%2Fhomes)
 
 ## :page_with_curl: License
 This project is [MIT](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) licensed.
