@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="d-flex text-center bg-danger p-1">
+        <div class="d-flex logo position-relative mx-auto mt-2">
+            <a href="index.html"><i class="bi text-white bi-house-door fs-1"></i></a>
+            <a href="index.html" class="text-decoration-none fw-bold ps-1 mt-1 font-roboto fs-2 text-white">Vader Apartments</a>
+        </div>
+    
+        <nav class="d-flex loo position-relative text-decoration-none mx-auto fs-5 py-3">
+            <div>
+                <a href="#"><i class="bi text-white bi-search px-3"></i></a>
+            </div>
+            <div class="topnav">
+                <a href="#" class="text-white text-decoration-none">APARTMENTS</a>
+            </div>
+            <div>
+                <a href="#"><i class="bi text-white bi-person-fill px-3"></i></a>
+            </div>
+            <div class="topnav">
+                <a href="#" class="text-white text-decoration-none">ABOUT</a>
+            </div>
+            <div>
+                <a href="#"><i class="fas text-white fa-wifi px-3"></i></a>
+            </div>
+            <div class="topnav">
+                <a href="#" class="text-white text-decoration-none">BLOG</a>
+            </div>
+            <div>
+                <a href="#"><i class="bi text-white bi-list px-3"></i></a>
+            </div>
+            <div class="topnav">
+                <a href="#" class="text-white text-decoration-none">MORE</a>
+            </div>
+        </nav>
+        </header>
+
+        <section class="bg-light">
+            <h4 class="text-center mt-5 pt-4 font-roboto">Filter by Name, Location, Check in, Check out, Guests </h4>
+            <form action="filter">
+           <div class="grid d-grid p-5 ">
+            <div class="col my-2 mx-lg-2 mx-md-2">
+                <input type="text" class="form-control border-secondary py-1" placeholder="Name">
+              </div>
+              <div class="col my-2 mx-lg-2 mx-md-2">
+                <select class="custom-select rounded border-secondary py-1 w-100">
+                    <option selected>Location</option>
+                    <option value="1">Ikeja</option>
+                    <option value="2">Banana Island</option>
+                    <option value="3">Ikate Elegushi</option>
+                    <option value="4">Yaba</option>
+                    <option value="5">Ajah</option>
+                  </select>
+              </div>
+              <div class="col my-2 mx-lg-2 mx-md-2">
+                <input type="date" id="start" class="w-100 rounded border-secondary py-1" name="trip-start"
+                            value="2021-08-03"
+                            min="2021-08-03" max="2021-08-31">
+              </div>
+              <div class="col my-2 mx-lg-2 mx-md-2">
+                <input type="date" id="end" class="w-100 rounded py-1" name="trip-start"
+                value="2021-08-03"
+                min="2021-08-03" max="2021-08-31">
+              </div>
+              <div class="col my-2 mx-lg-2 mx-md-2">
+                <select class="custom-select rounded border-secondary w-100 py-1">
+                    <option selected>Guests</option>
+                    <option value="1">Adults (Age 13 and above)</option>
+                    <option value="2">Children (Ages 2–12)</option>
+                    <option value="3">Infants
+                        Under 2</option>
+                  </select>
+              </div>
+              <div class="col my-2 mx-lg-2 mx-md-2">
+                <input class="btn btn-primary w-100" type="submit" value="Search">
+              </div>
+              <div class="col my-2 mx-lg-2 mx-md-2">
+               <button type="button" class="w-100 bg-danger py-2 text-white border-0 rounded"><i class="bi bi-pencil-square"></i> Clear Filter</button>
+              </div>
+           </div>
+            </form>
+        </section>
+    
+
+        <section class="mt-5 mb-5">
+            <h4 class="font-roboto text-secondary text-center">Search Results Found 7 Apartments</h4>
+            <div class="gridx d-grid justify-content-center">
+                <div class="card boom my-3 mx-lg-3 mx-md-3">
+                    <img class="card-img-top" src="images/2692259d-79df-4a47-9075-0f8478bd63b6.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Calm Modern Mini flat</h5>
+                      <p class="card-text">A home away from home experience. It is located centrally within the heart of Lekki phase one surrounded by fascinating views and side attractions .</p>
+                      <a href="details.html" class="btn btn-white border border-dark fw-bold font-roboto">From $200/Per Night</a>
+                    </div>
+                  </div>
+
+                  <div class="card boom my-3 mx-lg-3 mx-md-3">
+                    <img class="card-img-top" src="images/184b7e6c-5f28-4167-bdd9-53956a421751.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">A Tastefully Furnished Panache One Bedroom Apartment</h5>
+                      <p class="card-text">This is a well furnished luxury one bedroom apartment, located in the Victoria Island axis of Lagos.</p>
+                      <a href="details.html" class="btn btn-white border border-dark fw-bold font-roboto">From $150/Per Night</a>
+                    </div>
+                  </div>
+
+                  <div class="card boom my-3 mx-lg-3 mx-md-3">
+                    <img class="card-img-top" src="images/66a14d2c-49d7-4824-ad00-38e1c21cac70.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Sleek Apartment In the heart of Ikoyi</h5>
+                      <p class="card-text">Brand new apartment with 2 living spaces with couches and televisions. With lots of fine local restaurants around </p>
+                      <a href="details.html" class="btn btn-white border border-dark fw-bold font-roboto">From $135/Per Night</a>
+                    </div>
+                  </div>
+
+                  <div class="card boom my-3 mx-lg-3 mx-md-3">
+                    <img class="card-img-top" src="images/7e5ae496-5cc4-4dc3-a0fa-331f377943ee.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Luxury Two Bedroom Apartment in Banana Island</h5>
+                      <p class="card-text">Brand new, well built and fully furnished luxurious 2 bedroom private apartment in a secured neighbourhood in Banana Island.</p>
+                      <a href="details.html" class="btn btn-white border border-dark fw-bold font-roboto">From $150/Per Night</a>
+                    </div>
+                  </div>
+
+                  <div class="card boom my-3 mx-lg-3 mx-md-3">
+                    <img class="card-img-top" src="images/b85ea882-cb25-4ed1-a8c8-c93b03069005.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Well Furnished, Classic Studio Apartment</h5>
+                      <p class="card-text">An elegant and classy styled 1 bed room Studio apartment with constant power supply with top notch wifi speed.</p>
+                      <a href="details.html" class="btn btn-white border border-dark fw-bold font-roboto">From $170/Per Night</a>
+                    </div>
+                  </div>
+
+                  <div class="card boom my-3 mx-lg-3 mx-md-3">
+                    <img class="card-img-top" src="images/eff8800a-f605-437f-950b-86ee5abf0f35.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Well Furnished Modern Studio</h5>
+                      <p class="card-text">A beautiful-stylish furnished modern studio located in the heart of Osapa-London, Lekki. It comes with 24/7 electricity and wifi.</p>
+                      <a href="details.html" class="btn btn-white border border-dark fw-bold font-roboto">From $190/Per Night</a>
+                    </div>
+                  </div>
+
+                  <div class="card boom my-3 mx-lg-3 mx-md-3">
+                    <img class="card-img-top" src="images/3a7ad1f5-0c86-4d9d-92f9-2b10472489ee.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Very Central Home Away From Home</h5> 
+                      <p class="card-text">Fully furnished two-bedroom maisonette in the business residential hub of Victoria Island Lagos. Fantastic view of the Island’s Lagoon from here.</p>
+                      <a href="details.html" class="btn btn-white border border-dark fw-bold font-roboto">From $110/Per Night</a>
+                    </div>
+                  </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+          <div class="container-fluid">
+              <div class="row row-cols-1">
+                 <div class="col link-light py-2 text-center border-bottom my-3 border-top border-white">
+                  <a href="index.html" class="text-decoration-none px-2 text-white">HOME</a>
+                  <a href="" class="text-decoration-none px-2 mx-lg-1 text-white">SEARCH</a>
+                   <a href="" class="text-decoration-none px-2 mx-lg-1 text-white">ABOUT US</a>
+                   <a href="" class="text-decoration-none px-2 mx-lg-1 text-white">ADVERTISE</a>
+                   <a href="index.html"><i class="bi text-white bi-house-door invisible-house-door px-2 mx-lg-1 fs-5"></i></a>
+                   <a href="" class="text-decoration-none px-2 mx-lg-1 text-white">FACEBOOK</a>
+                       <a href="" class="text-decoration-none px-2 mx-lg-1 text-white">TWITTER</a>
+                       <a href="" class="text-decoration-none px-2 mx-lg-1 text-white">INSTAGRAM</a>
+                       <a href="" class="text-decoration-none px-2 mx-lg-1 text-white">BLOG</a>
+               </div>
+      
+      
+              <div class="col">
+                  <div class="row text-white gx-1 text-center">
+                      <div class="col-md mt-4">
+                          <h5>SUBSCRIBE</h5>
+                          <form action="subscribe">
+                              <input type="email" class="px-5 py-0" name="email" id="email" placeholder="you@example.com">
+                              <input type="button" value="Send" class="p- fs-6 send border-0 position-relative text-secondary rounded-end">
+                          </form>
+                      </div>
+                      <div class="col-md mt-4">
+                          <h5>CONTACT</h5>
+                         <p class="fw-bol">Have a question or submission? </p> 
+                         <a href="" class="link-danger fw-bold">info@easysearch.com</a>
+                      </div>
+                      <div class="col-md mt-4 mb-4">
+                          <h5>ABOUT</h5>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ea architecto earum dignissimos sit dolorum dolore at?<a href="">Learn More...</a>
+                      </div>
+                  </div>
+              </div>
+              </div>
+      
+              
+          </div>
+          <div class="socio-copy d-flex flex-column flex-md-row text-center">
+              <div class="socials pt-2">
+              <a class="socials px-3" href=""><i class="bi bi-facebook fs-3"></i></a>
+              <a class="socials px-3" href=""><i class="bi bi-whatsapp fs-3"></i></a>
+              <a class="socials px-3" href=""><i class="bi bi-twitter fs-3"></i></a>
+              <a class="socials px-3" href=""><i class="bi bi-instagram fs-3"></i></a>
+              <a class="socials px-3" href=""><i class="bi bi-telegram fs-3"></i></a>
+              </div>
+      
+      
+             <div class="copyright text-center pt-2 pe-lg-3 pt-lg-3 pe-md-3 pt-md-3 mb-4">
+      © EasySearch 2021. ALL RIGHTS RESERVED</div> 
+          </div>
+      </footer>
+</body>
+</html>

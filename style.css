@@ -1,0 +1,206 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.click-away {
+  background-image: url(images/aaron-huber-oMOx_wV6mLQ-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  height: 600px;
+}
+
+header {
+  flex-direction: column;
+}
+
+.easysearch {
+  top: 180px;
+}
+
+.oxblood {
+  background-color: #e17f65;
+}
+
+.roundedcircle {
+  width: 230px;
+  height: 200px;
+}
+
+.invisible-house-door {
+  display: none;
+}
+
+footer {
+  background-color: black;
+}
+
+.send {
+  right: 5px;
+}
+
+a.socials {
+  color: #99a5a6;
+}
+
+.socio-copy {
+  background-color: #313131;
+  color: #99a5a6;
+}
+
+.searchb {
+  flex-direction: column;
+}
+
+.searchw {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.topnav {
+  display: none;
+}
+
+.boom {
+  width: 18rem;
+}
+
+.boom:hover {
+  transform: scale(1.1);
+}
+
+.zoom:hover {
+  transform: scale(1.1) perspective(1px);
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .invisible-house-door {
+    display: inline;
+  }
+
+  .searchb {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .go {
+    width: 20%;
+  }
+
+  .searchw {
+    width: 70%;
+    margin-left: 105px;
+  }
+
+  .easysearch {
+    top: 200px;
+  }
+
+  .navbr {
+    flex-direction: row;
+  }
+
+  header {
+    flex-direction: row;
+  }
+
+  .logo {
+    right: 50px;
+    bottom: 4px;
+  }
+
+  .click-away {
+    height: 600px;
+  }
+
+  .grid {
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .gridx {
+    grid-template-columns: auto auto;
+  }
+
+  .gridz {
+    grid-template-columns: auto auto;
+  }
+
+  .socio-copy {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .searchb {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .go {
+    width: 20%;
+  }
+
+  .searchw {
+    width: 70%;
+    margin-left: 180px;
+  }
+
+  .easysearch {
+    top: 200px;
+  }
+
+  .navbr {
+    flex-direction: row;
+  }
+
+  header {
+    flex-direction: row;
+  }
+
+  .logo {
+    right: 40px;
+    bottom: 3px;
+  }
+
+  .loo {
+    left: 40px;
+  }
+
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+
+  .topnav {
+    display: block;
+  }
+
+  .invisible-house-door {
+    display: inline;
+  }
+
+  .grid {
+    grid-template-columns: auto auto auto auto auto auto auto;
+  }
+
+  .gridx {
+    grid-template-columns: auto auto auto;
+  }
+
+  .gridz {
+    grid-template-columns: auto auto;
+  }
+
+  .socio-copy {
+    justify-content: space-between;
+  }
+}
